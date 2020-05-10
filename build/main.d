@@ -1,4 +1,4 @@
-build/./main.o: main.cpp IShape.h Vector3D.h Ray.h Color.h Light.h util.h \
+build/./main.o: main.cpp Color.h IShape.h Vector3D.h Ray.h Light.h util.h \
   Plane.h Sphere.h /usr/local/include/SDL2/SDL.h \
   /usr/local/include/SDL2/SDL_main.h \
   /usr/local/include/SDL2/SDL_stdinc.h \
@@ -45,13 +45,13 @@ build/./main.o: main.cpp IShape.h Vector3D.h Ray.h Color.h Light.h util.h \
   /usr/local/include/SDL2/SDL_timer.h \
   /usr/local/include/SDL2/SDL_version.h
 
+Color.h:
+
 IShape.h:
 
 Vector3D.h:
 
 Ray.h:
-
-Color.h:
 
 Light.h:
 
